@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section class="header_details">
+        <h1>Loja Kenzie</h1>
+        <div class="user_details">
+          <div class="user_avatar"><span>LP</span></div>
+          <p class="user_name">Luiz Paulo</p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="products">
+        <div class="products_button_div">
+          <button id="addProduct">Adicionar</button>
+        </div>
+        <div class="products_list">
+          <ul id="products_list">
+            <!-- <li class="product">
+              <div class="product_img_div">
+                <img
+                  src="https://a-static.mlcdn.com.br/800x560/smart-tv-50-crystal-4k-samsung-50au7700-wi-fi-bluetooth-hdr-alexa-built-in-3-hdmi-1-usb/magazineluiza/193441200/0fc5facd981c5c79492fd4e96068712a.jpg"
+                />
+              </div>
+              <div class="product_detais">
+                <div>
+                  <h2>Smart TV 50” Crystal 4K Samsung 50AU7700</h2>
+
+                  <p>R$2500,00</p>
+                </div>
+                <div class="product_buttons">
+                  <button class="button_edit">Editar</button>
+                  <button class="button_remove">Remover</button>
+                </div>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+    </main>
+    <section class="modal-bg show_modal">
+      <div class="modal">
+        <button class="close_modal">X</button>
+        <form>
+          <label for="url">URL</label>
+          <input name="url" id="url-input" />
+          <label for="titulo">Título</label>
+          <input name="titulo" id="title-input" />
+          <label for="valor">Valor</label>
+          <input name="valor" id="price-input" />
+          <button id="finish-button">Concluir</button>
+        </form>
+      </div>
+    </section>
+  </body>
+  <script src="../scripts/editItem.js"></script>
+  <script src="../scripts/modal.js"></script>
+  <script src="../scripts/database.js"></script>
+  <script src="../scripts/index.js"></script>
+</html>
