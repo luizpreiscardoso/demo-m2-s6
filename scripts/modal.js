@@ -5,7 +5,7 @@ function handdleModal() {
 
   buttonAdd.addEventListener("click", () => {
     modal.classList.toggle("show_modal");
-
+    addItem();
     //função de adicionar
   });
   buttonClose.addEventListener("click", () => {

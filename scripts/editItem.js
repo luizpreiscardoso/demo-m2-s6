@@ -19,6 +19,12 @@ function editItem(product) {
         price: price.value,
       };
       console.log(data);
+
+      //=====================================//
+      // CÓDIGO DO EDIT ITEM AQUI //
+
+      //========================================//
+
       modal.classList.toggle("show_modal");
     },
     { once: true }
