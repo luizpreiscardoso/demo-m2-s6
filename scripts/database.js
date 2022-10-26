@@ -1,4 +1,4 @@
-const products = [
+export const products = [
   {
     id: 01,
     title: "Smart TV 50” Crystal 4K Samsung 50AU7700",
